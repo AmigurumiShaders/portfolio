@@ -1,4 +1,4 @@
-/* This file contains all of the css to make this responsive */
+/* This file contains all of the css to make this page responsive */
 
 @media (max-width: 550px){
     ul.myNav{
@@ -55,5 +55,10 @@
 
     .imageHolder img{
         max-width: 100%;
+    }
+}
+@media (max-width: 550px){
+    .about{
+        
     }
 }
