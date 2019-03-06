@@ -3,18 +3,27 @@
 @media (max-width: 550px){
     ul.myNav{
         text-align: center;
+        padding-top: 0em;
     }
+
+    ul.myNav li a{
+        font-size: 1em;
+    }
+
     header h2{
         text-align: center;
         font-size: 2em;
     }
+
     header h5{
         text-align: center;
         /* font-size: 20em; */
     }
+
     .myMenu li{
         float: none;
     }
+
     ul.myNav{
         float: none;
 
@@ -22,15 +31,14 @@
         width: 100%;
         text-align: center;
     }
+
     .main{
         width: 100vw;
         padding: 0;
         margin: 0;
     }
+
     .imageHolder img{
-
-    }
-    .imageHolder{
-
+        max-width: 100%;
     }
 }
