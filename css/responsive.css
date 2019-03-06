@@ -32,11 +32,26 @@
         text-align: center;
     }
 
-    .main{
+    .main, .portfolio, .portfolioItem{
         width: 100vw;
         padding: 0;
         margin: 0;
     }
+
+    .portfolioItem{
+        margin-top: 1em;
+        /* margin-bottom: 1em; */
+    }
+
+    /* .portfolio{
+        width: 
+    }
+
+    .portfolioItem{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    } */
 
     .imageHolder img{
         max-width: 100%;
