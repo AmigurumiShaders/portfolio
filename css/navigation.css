@@ -14,7 +14,7 @@ ul.myNav{
     padding: 0;
     margin: auto;
     float: left;    
-    background-color: #e7f2ff;
+    background-color: #E2FBF1;
     
     /* centers nav left-right within its container */
     width: 100%;
@@ -37,6 +37,7 @@ ul.myNav li{
 
 ul.myNav li a
 {
+    transition: 0.5s;
     font-size: 1.3em;
 	float: left;
 	width: 6em;
@@ -52,6 +53,7 @@ ul.myNav li a
 
 ul.myNav li a:hover
 {
+    transition: 0.5s;
 	background-color: #bbbbbb;
 	color: #000;
 }
@@ -73,7 +75,7 @@ header{
 .myMenu{
     /* border-bottom: 1px black solid; */
     /* background-color: white; */
-    background-color: #e7f2ff;
+    background-color: #E2FBF1;
     margin: auto;
     position: fixed;
     top: 0;
@@ -101,7 +103,7 @@ h2{
 }
 
 header h2{
-    text-align: right;
+    /* text-align: right; */
     
    /* background-color:  #e4e4e4;*/
    /* background-color:  #e4e4e4;*/
@@ -117,7 +119,7 @@ h2 a:hover{
 }
 
 header h5{
-	text-align: right;
+	/* text-align: right; */
 	margin-top: -1rem;
 	margin-bottom: 0rem;
 }
