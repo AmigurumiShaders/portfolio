@@ -1,7 +1,8 @@
 /* -- General -- */
 body{
     /* background-color: #e9f1ff; */
-    background-color: #e7e7e757;
+    background-color: #19181B;
+    color: #c4c4c4;
     font-size: 13.5pt;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     /* font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; */
@@ -20,7 +21,7 @@ body{
 .main{
     position: relative;
     top: 70px;
-    background-color: #D4B7ED;
+    background-color: #332F3C;
 }
 
 
@@ -28,9 +29,9 @@ body{
 section{
     /* border: 1px black solid;
     border-radius: 1em; */
-    background-color: #D4B7ED;
+    background-color: #332F3C;
     padding: 1em;
-    margin: 1em;
+    margin: 0em;
     /*margin: 1em;
     margin-top: 3em;*/
 }
@@ -42,7 +43,7 @@ section{
 
 .about{
     position: sticky;
-
+    /* background-color: #19181B; */
 }
 
 .about p{
@@ -63,11 +64,12 @@ section{
     border: none;
     border-
     us: none;
-    padding: 0;
     background-color: currentColor;*/
+    padding-left: 1em;
     margin: 0;
     float: right;
-    background-color: #F1E4FB;
+    background-color: #453E59;
+    text-align: center;
     /* border: 1px black solid; */
 }
 
@@ -77,10 +79,10 @@ section{
     /* margin-top: 0; */
 	/* border-radius: 1em; */
     padding: 1em;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* background-color: #7788990e; */
-    background-color: white;
-    float: left;
+    background-color: #332F3C;
+    /* float: left; */
     height: 25em;
     text-align: center;
 
@@ -92,23 +94,26 @@ section{
 
 .portfolioLink{
     transition: 0.5s;
-    color: black;
+    color: #c4c4c4;
     text-decoration: none;
+    padding: 0;
+
 }
 
 .portfolioLink:hover{
-    color: black;
+    color: #c4c4c4;
     text-decoration: none;
 
 }
 
 .portfolioItem:hover{
     transition: 0.5s;    
-    color: black;
+    color: #c4c4c4;
     text-decoration: none;
 
-    /* box-shadow: 1px 2px 4px #7788990e; */
-    box-shadow: 0 0 10px 2px #29272D;
+    /* box-shadow: 0 0 20px 0px #29272D; */
+    
+    box-shadow: 0 0 20px 0px #c4c4c4;
 
 }
 
