@@ -1,4 +1,4 @@
-/* This file contains all of the css to make this responsive */
+/* This file contains all of the css to make this page responsive */
 
 @media (max-width: 550px){
     ul.myNav{
@@ -32,8 +32,8 @@
         text-align: center;
     }
 
-    .main, .portfolio, .portfolioItem{
-        width: 100vw;
+    .main, .portfolioContainer, .portfolioItem{
+        /* width: 100vw; */
         padding: 0;
         margin: 0;
     }
@@ -42,6 +42,13 @@
         margin-top: 1em;
         /* margin-bottom: 1em; */
     }
+
+    .about{
+        margin: 0;
+        padding: 0;  
+    }
+
+    
 
     /* .portfolio{
         width: 
@@ -55,5 +62,21 @@
 
     .imageHolder img{
         max-width: 100%;
+    }
+}
+
+/* @media (max-width: 550px){
+    .about{
+        
+    }
+} */
+
+@media (max-width: 1008px){
+    .portfolioItem{
+        margin: 1%;
+    }
+
+    .portfolioContainer .six{
+        width: 100%;
     }
 }

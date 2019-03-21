@@ -14,7 +14,7 @@ ul.myNav{
     padding: 0;
     margin: auto;
     float: left;    
-    background-color: #e7f2ff;
+    background-color: #17181A;
     
     /* centers nav left-right within its container */
     width: 100%;
@@ -37,11 +37,13 @@ ul.myNav li{
 
 ul.myNav li a
 {
+    transition: 0.5s;
     font-size: 1.3em;
 	float: left;
 	width: 6em;
-	color: #000;
-	background-color: #fff;
+	/* color: #000; */
+    color: #c4c4c4;
+	background-color: #1C2428;
 	padding: .2em;
 	text-decoration: none;
 
@@ -52,8 +54,10 @@ ul.myNav li a
 
 ul.myNav li a:hover
 {
-	background-color: #bbbbbb;
-	color: #000;
+    transition: 0.5s;
+	background-color: #374952;
+	/* color: #000; */
+    color: #c4c4c4;
 }
 
 /* -- Other Navigation -- */
@@ -73,7 +77,7 @@ header{
 .myMenu{
     /* border-bottom: 1px black solid; */
     /* background-color: white; */
-    background-color: #e7f2ff;
+    background-color: #17181A;
     margin: auto;
     position: fixed;
     top: 0;
@@ -101,7 +105,7 @@ h2{
 }
 
 header h2{
-    text-align: right;
+    /* text-align: right; */
     
    /* background-color:  #e4e4e4;*/
    /* background-color:  #e4e4e4;*/
@@ -109,24 +113,28 @@ header h2{
 
 h2 a{
 	text-decoration: none;
-    color: black;
+    /* color: black; */
+    color: #c4c4c4;
 }
 
 h2 a:hover{
-	color: black;
+	/* color: black; */
+    color: #c4c4c4;
 }
 
 header h5{
-	text-align: right;
+	/* text-align: right; */
 	margin-top: -1rem;
 	margin-bottom: 0rem;
 }
 
 header h5 a{
 	text-decoration: none;
-	color: black;
+	/* color: black; */
+    color: #c4c4c4;
 }
 
 h5 a:hover{
-    color: black;
+    /* color: black; */
+    color: #c4c4c4;
 }
