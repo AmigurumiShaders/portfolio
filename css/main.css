@@ -22,7 +22,7 @@ body{
     position: relative;
     top: 70px;
     background-color: #332F3C;
-    font-size: 13.5pt; 
+    font-size: 14pt; 
 }
 
 
@@ -86,7 +86,10 @@ section{
     /* float: left; */
     height: 25em;
     text-align: center;
+}
 
+.portfolioItem p{
+    text-align: justify;
 }
 
 .portfolioItem .imageHolder{
@@ -114,7 +117,7 @@ section{
 
     /* box-shadow: 0 0 20px 0px #29272D; */
     
-    box-shadow: 0 0 20px 0px #c4c4c4;
+    box-shadow: 0 0 10px 0px #c4c4c4;
 
 }
 
@@ -163,4 +166,8 @@ input, textarea{
 embed{
     width: 80%;
     height: 100%;
+}
+
+.emphasis{
+    font-weight: 600;
 }
