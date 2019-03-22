@@ -1,7 +1,7 @@
 /* "Where am I now?" style */
-.myNav li a#current{
+/* .myNav li a#current{
 	background-color:red;
-}
+} */
 
 /* everything else */
 
@@ -15,7 +15,7 @@ ul.myNav{
     margin: auto;
     float: left;    
     background-color: #17181A;
-    
+    font-size: 13.5pt; 
     /* centers nav left-right within its container */
     width: 100%;
     /* height: 100%; */
@@ -32,7 +32,7 @@ ul.myNav li{
 	text-align: center;
     padding: 0;
     margin: 0;
-
+    background-color: #1C2428; 
 }
 
 ul.myNav li a
@@ -43,14 +43,17 @@ ul.myNav li a
 	width: 6em;
 	/* color: #000; */
     color: #c4c4c4;
-	background-color: #1C2428;
-	padding: .2em;
+	/* background-color: #1C2428; */
+	padding: .1em;
 	text-decoration: none;
 
     /* border-radius: 3px; */
     /* border-style: dashed; */
 }
 
+/* ul.myNav li a.thisPage{
+    background-color: white;
+} */
 
 ul.myNav li a:hover
 {
@@ -58,6 +61,10 @@ ul.myNav li a:hover
 	background-color: #374952;
 	/* color: #000; */
     color: #c4c4c4;
+}
+
+.thisPage a{
+	background-color: #374952;
 }
 
 /* -- Other Navigation -- */
@@ -88,7 +95,7 @@ header{
 }
 
 ul.myNav{
-    margin-top: .3em;
+    margin-top: .1em;
     text-align: left;
 }
 
