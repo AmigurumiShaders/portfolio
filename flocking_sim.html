@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flocking Simulation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="fonts/VT323-Regular.ttf" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="Skeleton-2.0.4/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="Skeleton-2.0.4/css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/navigation.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header class="container myMenu">
+        <nav class="row myNavHolder">
+            <div class="six columns">
+                <h2><a href="index.html">Miranda Auriemma</a></h2>
+                <h5><a href="index.html">Interactive Developer & Gamemaker</a></h5>
+            </div>
+            <div class="six columns">
+                <ul class="myNav">
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <!-- <li><a href="index.html">About Me</a></li> -->
+                    <!--<li><a href="#contact">Contact</a></li>-->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container main" id="top"> 
+        <section class="row">
+            <div class="eight columns">
+                <h4 class="emphasis">Flocking Simulations</h4>
+                <h6>Class and personal project</h6>
+                <p>
+                    These are two simulations of autonomous agents executing a flocking algorithm. Both utilize the base 
+                    steering forces of autonomous agents, seeking and fleeing, to move, flock together, avoid obstacles, and stay within the 
+                    boundaries. The 2 dimensional flocking simulation was assigned as a final project for a class, however I had so much fun 
+                    with it that I decided to extend it to 3 dimensions, and I am very happy with how it turned out. 
+                </p>
+                <img class="feature" src="images/obstacleavoidance.gif"/>
+                <img class="feature" src="images/3DdebugAvoid.gif"/>
+
+                <p>
+                    The base forces of autonomous agents are seeking, which steers the agent towards a location, and fleeing, which steers the 
+                    agent away from a location. The flocking simulation, in essence, involves giving the agent a list of things to seek, and a 
+                    list of things to flee, and telling them how much or how little they should seek or flee each thing, and in the case of obstacle 
+                    avoidance, tell them which direction they should flee in. 
+                </p>
+                <div class="imageHolder">
+                    <img src="images/3DfpView.gif"/>
+                    
+                </div>
+
+                <p>
+                    One of the biggest challenges that came with this project was resolving a flaw in my implementation of the algorithm that 
+                    didn't fully present itself until I had a large flock moving in 3 dimensions. The flaw was in the way that I implemented wandering, 
+                    the part of the algorithm that moves the individual agents forward. It involves telling the agent to "seek" a random point in front of it. 
+                    Each flocker would pick and seek a point independently of the other flockers, which also meant they were all wandering in completely different 
+                    directions. When combined with the other parts of the algorithm, it made the flock appear to make a round bulge in the back, and fan out in 
+                    the font, with a pinch in the middle. It almost looked like the flock was trying to pull itself apart. I realized that the best way to fix it 
+                    would most likely be to refactor my implementation of wandering so that each flocker would be given the same direction to "wander" in.
+                </p>
+                <p>
+                    This fix took a good amount of time and a significant amount of refactoring, because most of the implementation of wandering was based on the 
+                    fundamental flaw that each of the flockers should be wandering independently of the others. However, the end result is a flock of cats that 
+                    moves like a real school of fish.
+                </p>
+            </div>
+            <div class="four columns imageHolder">
+                <!-- <img src="images/obstacleavoidance.gif"/> -->
+                <img src="images/3DdistanceBetter.gif"/>
+                <img src="images/3Dabove.gif"/>
+                <img src="images/frontflock.gif"/>
+                <!-- <img src="images/3DdebugAvoid.gif"/> -->
+                <!-- <img src="images/3DfpView.gif"/> -->
+                <img src="images/3Dinside.gif"/>
+                <img src="images/distancethenbehind.gif"/>
+                <img src="images/behindFlock.gif"/>
+            </div>
+        </section>  
+    </main>
+</body>

@@ -37,27 +37,35 @@ section{
     margin-top: 3em;*/
 }
 
-.imageHolder img{
-    max-height: 100%;
-    max-width: 100%;
-}
-
-.about{
+/* .about{
     position: sticky;
-    /* background-color: #19181B; */
-}
+    
+} */
 
-.about p{
-    text-align: justify;      
-
+#aboutMe.imageHolder{    
+    min-width: 100%;
+    min-height: 10em;
+    text-align: center;
+    background-color: red;
 }
 
 .about .imageHolder img{
     max-width: 100%;
+    min-height: 10px;
 }
 
-.imageHolder{    
+.imageHolder img{
+    /* max-height: 100%; */
+    max-width: 100%;
+}
+
+.about{
     text-align: center;
+}
+
+.about p{
+    text-align: justify;      
+    
 }
 
 .portfolioContainer{
@@ -84,7 +92,8 @@ section{
     /* background-color: #7788990e; */
     background-color: #332F3C;
     /* float: left; */
-    height: 25em;
+    height: 26em;
+    /* max-height: 30em; */
     text-align: center;
 }
 
@@ -92,8 +101,10 @@ section{
     text-align: justify;
 }
 
-.portfolioItem .imageHolder{
+.portfolioItem.imageHolder{
     height: 10em;
+    /* text-align: center; */
+
 }
 
 .portfolioLink{
@@ -170,4 +181,12 @@ embed{
 
 .emphasis{
     font-weight: 600;
+}
+
+.imageHolder{
+    text-align: center;
+}
+
+.feature{
+    width: 49%;
 }
