@@ -74,8 +74,11 @@ section{
     border-
     us: none;
     background-color: currentColor;*/
-    padding-left: 1em;
-    margin: 0;
+    padding-left: 1.5em;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* margin: 11.2px 11.2px 11.2px 11.2px; */
     float: right;
     background-color: #453E59;
     text-align: center;
@@ -84,17 +87,19 @@ section{
 
 .portfolioItem{
     /*border: 1px black solid;*/
-    margin: 0.6em;
     /* margin-top: 0; */
 	/* border-radius: 1em; */
     padding: 1em;
     /* overflow: hidden; */
     /* background-color: #7788990e; */
     background-color: #332F3C;
-    /* float: left; */
+    float: left;
     height: 26em;
     /* max-height: 30em; */
     text-align: center;
+    margin: 11.2px 11.2px 11.2px 11.2px;
+    /* margin-right: -1em;
+    margin-left: -1em; */
 }
 
 .portfolioItem p{
@@ -111,7 +116,7 @@ section{
     transition: 0.5s;
     color: #c4c4c4;
     text-decoration: none;
-    padding: 0;
+    /* padding: 0; */
 
 }
 
@@ -191,6 +196,14 @@ embed{
     width: 49%;
 }
 
-.downloads{
-
+footer{
+    text-align: center;
 }
+
+.icon{
+    font-size: 2.5em;
+    padding: .2em;
+    color: #c4c4c4;
+    text-decoration: none;
+}
+
