@@ -181,6 +181,12 @@ input, textarea{
     height: 100vh;
 }
 
+.pdfHolder{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
 embed{
     width: 80%;
     height: 100%;
