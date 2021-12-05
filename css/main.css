@@ -168,6 +168,8 @@ input, textarea{
 /* -- ID's --*/
 #portfolioHeader{
     text-align: center;
+    margin-top:  2rem;
+    margin-bottom: 0;
 }
 
 #wip{
@@ -177,6 +179,12 @@ input, textarea{
 .resumeHolder{
     text-align: center;
     height: 100vh;
+}
+
+.pdfHolder{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
 }
 
 embed{
