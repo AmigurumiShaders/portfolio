@@ -187,6 +187,12 @@ input, textarea{
     width: 100%;
 }
 
+.unityHolder{
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+}
+
 embed{
     width: 80%;
     height: 100%;
