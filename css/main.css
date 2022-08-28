@@ -215,6 +215,10 @@ iframe{
     width: 49%;
 }
 
+.highlight{
+    width: 60%;
+}
+
 footer{
     text-align: center;
 }

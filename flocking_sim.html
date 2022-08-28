@@ -39,25 +39,27 @@
                 <h6>Class and personal project</h6>
                 <p>
                     These are two simulations of autonomous agents executing a flocking algorithm. Both utilize the base 
-                    steering forces of autonomous agents, seeking and fleeing, to move, flock together, avoid obstacles, and stay within the 
+                    steering forces of autonomous agents (seeking and fleeing) to move, flock together, avoid obstacles, and stay within the 
                     boundaries. The 2 dimensional flocking simulation was assigned as a final project for a class, however I had so much fun 
                     with it that I decided to extend it to 3 dimensions, and I am very happy with how it turned out. 
                 </p>
-                <img class="feature" src="images/obstacleavoidance.gif"/>
-                <img class="feature" src="images/3DdebugAvoid.gif"/>
 
-                <p>
+                <div class="imageHolder">
+                    <img class="highlight" src="images/3DfpView.gif"/>
+                    
+                </div>
+                <!-- <img class="feature" src="images/obstacleavoidance.gif"/>
+                <img class="feature" src="images/3DdebugAvoid.gif"/> -->
+
+                <!-- <p>
                     The base forces of autonomous agents are seeking, which steers the agent towards a location, and fleeing, which steers the 
                     agent away from a location. The flocking simulation, in essence, involves giving the agent a list of things to seek, and a 
                     list of things to flee, and telling them how much or how little they should seek or flee each thing, and in the case of obstacle 
                     avoidance, tell them which direction they should flee in. 
-                </p>
-                <div class="imageHolder">
-                    <img src="images/3DfpView.gif"/>
-                    
-                </div>
+                </p> -->
+                
 
-                <p>
+                <!-- <p>
                     One of the biggest challenges that came with this project was resolving a flaw in my implementation of the algorithm that 
                     didn't fully present itself until I had a large flock moving in 3 dimensions. The flaw was in the way that I implemented wandering, 
                     the part of the algorithm that moves the individual agents forward. It involves telling the agent to "seek" a random point in front of it. 
@@ -69,7 +71,7 @@
                 <p>
                     This fix took a good amount of time and a significant amount of refactoring, because most of the implementation of wandering was based on that 
                     fundamental flaw. However, the end result is a flock of cats that moves like a real school of fish. 
-                </p>
+                </p> -->
                 <p>
                     While I am not currently actively working on this project, I would still like to take it further, and make an entire underwater scene, and 
                     implement things such as aquatic plants swaying with the current. I have, however, already added my own 3D models of angelfish as flockers. 
@@ -92,11 +94,12 @@
                 </ul> -->
             </div>
             <div class="four columns imageHolder">
-                <!-- <img src="images/obstacleavoidance.gif"/> -->
+                <img src="images/obstacleavoidance.gif"/>
+                <img src="images/3DdebugAvoid.gif"/>
+                
                 <img src="images/3DdistanceBetter.gif"/>
                 <img src="images/3Dabove.gif"/>
                 <img src="images/frontflock.gif"/>
-                <!-- <img src="images/3DdebugAvoid.gif"/> -->
                 <!-- <img src="images/3DfpView.gif"/> -->
                 <img src="images/3Dinside.gif"/>
                 <img src="images/distancethenbehind.gif"/>
