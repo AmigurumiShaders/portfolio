@@ -2,3 +2,42 @@
 ---
 
 @import "jekyll-theme-midnight";
+@import "dark-pale";
+
+
+#header {
+    box-shadow: none;
+    
+    nav {
+        background: none;
+        
+        .nav-element{
+            display:inline-block;
+            // float: left;
+            margin-left: 0px;
+
+            a {
+                background: $color-complement-1;
+                box-shadow: none;
+                border: none;
+            }
+        }
+    }
+}
+
+body {
+    background: #252525;
+}
+
+blockquote {
+    border-left: 3px solid $color-complement-0;
+}
+
+a {
+    color: $color-secondary-1-2;
+
+    &:hover {
+        color: #FFFDB5;
+        text-decoration: underline;
+    }
+}
