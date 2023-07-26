@@ -41,3 +41,20 @@ a {
         text-decoration: underline;
     }
 }
+
+.folio-selection {
+    float: left;
+}
+
+section {
+    margin: 0;
+}
+.wrapper {
+    margin-top: 70px;
+}
+
+.youtube {
+    aspect-ratio: 16 / 9; //would be nice to have a backup incase aspect-ratio doesnt work on too many browsers
+    width: 100%;
+    
+}
