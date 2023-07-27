@@ -1,9 +1,11 @@
 ---
 layout: default
 
-title:  "Welcome to Jekyll!"
-
+title:  first
+output: true
 image: "./assets/images/nav-bg.gif"
+
+# collection: portfolio_pages
 ---
 
 ## Welcome to another page
