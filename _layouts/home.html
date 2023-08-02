@@ -1,31 +1,31 @@
 ---
 layout: default
 ---
-    <section>
-        <div id="title">
-            <h1>{{ site.title }}</h1>
-            <p>{{ site.description }}</p>
+<section>
+    <div id="title">
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
 
+    </div>
+</section>
+<section class="reel-section">
+    <iframe class="youtube" src="https://www.youtube-nocookie.com/embed/lxqkSlRcbkM" title="YouTube video player"
+        frameborder="0" allowfullscreen></iframe>
+</section>
+
+
+
+<section class="folio-container">
+    {% for page in site.portfolio_pages %}
+    <a href="{{ page.url }}">
+        <div>
+            <h2> {{ page.title }} </h2>
+            <img src="{{ page.image }}" alt="">
+
+            <p> {{page.description}} </p>
+            <p> <span class="emphasis">Tools: </span> {{page.tools}} </p>
         </div>
-    </section>
-    <section class="reel-section">
-        <iframe class="youtube" src="https://www.youtube-nocookie.com/embed/lxqkSlRcbkM" title="YouTube video player"
-            frameborder="0" allowfullscreen></iframe>
-    </section>
+    </a>
+    {% endfor %}
 
-
-
-    <section class="folio-container">
-        {% for page in site.portfolio_pages %}
-        <a href="{{ page.url }}">
-            <div>
-                <h2> {{ page.title }} </h2>
-                <img src="{{ page.image }}" alt="">
-
-                <p> {{page.description}} </p>
-                <p> {{page.tools}} </p>
-            </div>
-        </a>
-        {% endfor %}
-    
-    </section>
+</section>

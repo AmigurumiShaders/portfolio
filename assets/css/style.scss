@@ -11,6 +11,9 @@
     nav {
         background: none;
         
+        ul {
+            float: left;
+        }
         .nav-element{
             display:inline-block;
             // float: left;
@@ -27,6 +30,7 @@
 
 body {
     background: #252525;
+    font-size: large;
 }
 
 blockquote {
@@ -46,22 +50,41 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
     a {
+        margin-bottom: 10px;
         max-width: 45%;
-        // padding: 3px;
+        padding: 1em;
+        color: #f0e7d5;
+        background-color: #191919;
+
+        // border: 1px solid#f0e7d5;
+
+        &:hover {
+            // background-color: #fcd991;
+            box-shadow: 0 0 10px 0px $color-complement-0;
+            text-decoration: none;
+        }
     }
+
+    
 
     h2 {
         text-align: center;
+    }
+    img { 
+        margin: auto;
+        display: block;
+        margin-bottom: 1em;
     }
     
 }
 
 section {
-    margin: 0;
+    margin: auto;
     margin-bottom: 10px;
     padding: 0;
-    max-width: 50vw;
+    max-width: 45vw;
     
     #title {
         margin: 0;
@@ -78,4 +101,14 @@ section {
     aspect-ratio: 16 / 9; //would be nice to have a backup incase aspect-ratio doesnt work on too many browsers
     width: 100%;
     margin: 0;
+}
+
+.pdf {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.emphasis {
+    font-weight: 600;
 }

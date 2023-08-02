@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio-item
 
 title: "Raymarching Tool: Unreal Engine 4"
 title-desc: Ongoing Project
