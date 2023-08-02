@@ -30,64 +30,10 @@
 
     <main class="wrapper">
 
-      
-      <!-- <section>        
-        <div id="title">
-          {% if page.type == "home" %}
-          <h1>{{ page.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          {% endif %}
-          {% if page.type != "home" %}
-          <h2>{{ page.title | default: site.github.repository_name }}</h2>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
-          {% endif %}
-        </div>
-      </section> -->
-
-      <!-- <section class="reel-section">
-        <iframe class="youtube" src="https://www.youtube.com/embed/lxqkSlRcbkM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-      </section> -->
-
-      <!-- todo: flexbox maybe -->
-      <!-- <section> 
-        <div class="folio-selection"> 
-          {% assign ta-page = site.pages | where: "title", "Technical Art" | first %}
-          <a href="{{ ta-page.url }}">{{ta-page.title}}</a>
-        </div>
-        <div class="folio-selection">
-          {% assign ta-page2 = site.pages | where: "title", "Technical Art" | first %}
-          <a href="{{ ta-page2.url }}">{{ta-page2.title}}</a>
-        </div>
-
-      </section> -->
-      
-      <!-- <section>
-        
-        <ul>
-          {% for post in site.posts %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-              {{ post.excerpt }}
-            </li>
-          {% endfor %}
-        </ul>
-        <ul>
-          {% for page in site.pages %}
-            <li>
-              <a href="{{ page.url }}">{{ page.title }}</a>
-              <img src="{{ page.image }}" alt="">
-            </li>
-          {% endfor %}
-        </ul> -->
-
-        <!-- <div>
-          <a href="{{ site.pages.tech-art }}">{{ site.pages.tech-art.title }}</a>
-        </div> -->
+     
         {{ content }}
 
 
-      <!-- </section> -->
 
     </main>
   </body>
