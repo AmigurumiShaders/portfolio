@@ -3,7 +3,7 @@ layout: portfolio-item
 
 
 title:  "DirectX 11 Particle System"
-image: "./assets/images/particles/particles-basic.gif"
+thumbnail_image: "./assets/images/particles/particles-basic.gif"
 
 description: "A basic particle system built with DirectX 11" 
 tools: "C++, DirectX 11"

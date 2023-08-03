@@ -3,7 +3,7 @@ layout: portfolio-item
 
 title:  "Japanese Kanji Study Helper"
 
-image: "./assets/images/kanji_tool/kurikaesu.png"
+thumbnail_image: "./assets/images/kanji_tool/kurikaesu.png"
 
 description: "A tool to help Japanese learners grasp one of the most notorious writing systems" 
 tools: "VueJS, BootstrapVue, Visual Studio Code"

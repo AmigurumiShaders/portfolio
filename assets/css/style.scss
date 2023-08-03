@@ -76,8 +76,16 @@ a {
         margin: auto;
         display: block;
         margin-bottom: 1em;
+        aspect-ratio: 16 / 9;
+        min-width: 75%;
     }
     
+}
+
+.folio-item {
+    img {
+        max-width: 50%;
+    }
 }
 
 section {

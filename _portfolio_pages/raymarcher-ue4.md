@@ -4,7 +4,7 @@ layout: portfolio-item
 title: "Raymarching Tool: Unreal Engine 4"
 title-desc: Ongoing Project
 
-image: "./assets/images/raymarcher/just-smoothing.gif"
+thumbnail_image: "./assets/images/raymarcher/just-smoothing.gif"
 description: "A tool to put raymarching visuals within the reach of artists" 
 tools: "Unreal Engine 4, C++"
 ---

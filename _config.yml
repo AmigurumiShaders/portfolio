@@ -6,10 +6,6 @@ google_analytics:
 theme: jekyll-theme-midnight
 page_excerpts: true
 
-# collections_dir: collections
 collections:
   portfolio_pages:
     output: true
-# collections:
-#   animals:
-#     output: true
