@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <!-- I dont think any of these scripts are needed but keep them for now just in case -->
@@ -19,24 +21,35 @@
     {% include head-custom.html %}
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <ul>
-            <li class="nav-element"><a class="nav-element" href="{{ site.url }}">home</a></li>
-            <li class="nav-element"><a class="nav-element" href="{% link pages/resume.md %}">Resume</a></li>
-            <li class="nav-element"><a class="nav-element" href="{% link pages/about.md %}">About</a></li>
-            <!-- <li class="nav-element"><a href="{{ site.github.repository_url }}">posttest</a></li> -->
-          </ul>
-        </nav>
-      </div><!-- end header -->
-
+    <div id="header">
+      <nav>
+        <div id="title">
+          <h1>{{ site.title }}</h1>
+          <p>{{ site.description }}</p>
+  
+        </div>
+        <ul>
+          <li class="nav-element"><a class="nav-element" href="{{ site.url }}"><i class="fab fa-linkedin"></i></a></li>
+          <li class="nav-element"><a class="nav-element" href="{% link pages/resume.md %}"><i class="fab fa-github"></i></a></li>
+          <li class="nav-element"><a class="nav-element" href="{% link pages/about.md %}"><i class="fas fa-envelope"></i></a></li>
+          <!-- <li class="nav-element"><a href="{{ site.github.repository_url }}">posttest</a></li> -->
+        </ul>
+        <ul>
+          <li class="nav-element"><a class="nav-element" href="{{ site.url }}">home</a></li>
+          <li class="nav-element"><a class="nav-element" href="{% link pages/resume.md %}">Resume</a></li>
+          <li class="nav-element"><a class="nav-element" href="{% link pages/about.md %}">About</a></li>
+          <!-- <li class="nav-element"><a href="{{ site.github.repository_url }}">posttest</a></li> -->
+        </ul>
+      </nav>
+    </div><!-- end header -->
+  
     <main class="wrapper">
-
-     
-        {{ content }}
-
-
-
+  
+  
+      {{ content }}
+  
+  
+  
     </main>
   </body>
 </html>

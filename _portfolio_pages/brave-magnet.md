@@ -2,9 +2,10 @@
 layout: portfolio-item
 
 title:  "Brave Magnet"
+proj_type: "Global Game Jam 2022 group project"
 
 thumbnail_image: "./assets/images/brave_magnet/title.jpg"
-description: "Collaboration between RIT and Kyoto Computer Gakuin in Japan for Global Game Jam"
+description: "A game developed by a multilingual team"
 tools: "Unreal Engine 4"
 role: "VFX Artist, Team Coordinator"
 
@@ -16,8 +17,9 @@ role: "VFX Artist, Team Coordinator"
 
  This game was made as part of a collaboration between Rochester Institute of Technology and Kyoto Computer Gakuin in Japan, for Global Game Jam 2022. Our team was comprised of 3 American RIT students, and 4 Japanese KCG students.
 
-This project was an amazing opportunity for me to put my growing Japanese ability to the test to facilitate communication between the rest of the team. I was able to push past the nerves and fear of mistakes to help keep everyone on the same page and help keep momentum in discussions. I was also able to help the Japanese team members with git operations that they weren't confident with.
+![image](../assets/images/brave_magnet/magnetism-particles.gif){: .img-left}
+For this project, I used Niagara to create particles that indicate the player's current magnetic polarity - blue repels blue enemies, and red repels red enemies.<br>
 
-My direct development contributions to this project mainly involved VFX particle work with Niagara. 
 
-![](../assets/images/brave_magnet/magnetism-particles.gif)
+This project was also an amazing opportunity for me to challenge and grow not only my budding Japanese ability, but also my overall communication skills and confidence. As I was the team member most capable in both languages, it fell on me to ensure that everyone was on the same page and keep discussions moving. Since the Japanese members of our team were also new to git, it was also my job to help them out with it. 
+
