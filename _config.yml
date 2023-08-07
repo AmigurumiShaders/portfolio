@@ -9,3 +9,9 @@ page_excerpts: true
 collections:
   portfolio_pages:
     output: true
+
+external_links:
+  linkedin: "https://www.linkedin.com/in/miranda-auriemma"
+  github: "https://github.com/tafellappen"
+  mail: "mailto:msa4295@rit.edu"
+  kanji_helper: "https://people.rit.edu/msa4295/kanji/dist/"

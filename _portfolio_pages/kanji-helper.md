@@ -10,7 +10,6 @@ description: "A tool to help Japanese learners grasp one of the most notorious w
 tools: "VueJS, BootstrapVue, Visual Studio Code"
 ---
 
-## Japanese Kanji Study Helper
 
 This is a web app that was inspired by my own troubles with learning to read and write in Japanese. It is built with VueJS and incorporates two APIs which are used to retrieve dictionary entries of words and characters based on the user's search terms.
 
