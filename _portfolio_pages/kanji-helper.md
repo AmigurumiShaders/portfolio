@@ -14,7 +14,7 @@ tools: "VueJS, BootstrapVue, Visual Studio Code"
 This is a web app that was inspired by my own troubles with learning to read and write in Japanese. It is built with VueJS and incorporates two APIs which are used to retrieve dictionary entries of words and characters based on the user's search terms.
 
 
-Below is an embed of the site itself. You can also visit the full site here. 
+Below is an embed of the site itself. You can also visit the full site [here]({{site.external_links.kanji_helper}}). 
 <!--more-->
 
 <embed class="site-embed" src="https://people.rit.edu/msa4295/kanji/dist/" type="">

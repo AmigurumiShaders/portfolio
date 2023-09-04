@@ -9,6 +9,12 @@ page_excerpts: true
 collections:
   portfolio_pages:
     output: true
+    order:
+    - dx12-raymarcher.md
+    - brave-magnet.md
+    - raymarcher-ue4.md
+    - particle-system.md
+    - kanji-helper.md
 
 external_links:
   linkedin: "https://www.linkedin.com/in/miranda-auriemma"
