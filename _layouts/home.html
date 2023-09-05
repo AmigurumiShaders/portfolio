@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<section class="mobile-only">
+    <div id="title">
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+
+    </div>
+</section>
+<section class="reel-section">
+    <iframe class="youtube" src="https://www.youtube-nocookie.com/embed/MParda77Alg" title="YouTube video player"
+        frameborder="0" allowfullscreen></iframe>
+</section>
+
+
+<section class="folio-container">
+    {% for page in site.portfolio_pages %}
+    <a href="{{ page.url }}">
+        <div>
+            <h2> {{ page.title }} </h2>
+            <img src="{{ page.thumbnail_image }}" alt="">
+
+            <p> {{page.description}} </p>
+            <p> <span class="emphasis">Tools: </span> {{page.tools}} </p>
+        </div>
+    </a>
+    {% endfor %}
+
+</section>
