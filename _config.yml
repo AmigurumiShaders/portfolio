@@ -1,0 +1,23 @@
+title: Miranda Auriemma
+description: Technical Artist and Engineer
+# descriptionExtra: haha does is work?
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-midnight
+page_excerpts: true
+
+collections:
+  portfolio_pages:
+    output: true
+    order:
+    - dx12-raymarcher.md
+    - brave-magnet.md
+    - raymarcher-ue4.md
+    - particle-system.md
+    - kanji-helper.md
+
+external_links:
+  linkedin: "https://www.linkedin.com/in/miranda-auriemma"
+  github: "https://github.com/tafellappen"
+  mail: "mailto:msa4295@rit.edu"
+  kanji_helper: "https://people.rit.edu/msa4295/kanji/dist/"

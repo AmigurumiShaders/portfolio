@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- I dont think any of these scripts are needed but keep them for now just in case -->
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script> -->
+    <!-- <script src="{{ '/assets/js/respond.js' | relative_url }}"></script> -->
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div id="header">
+      <nav>
+        <a class="desktop-only" href="{{ site.url }}">
+          <div id="title">
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.description }}</p>
+            
+          </div>
+        </a>
+        <ul>
+          <li class="nav-element"><a href="{{ site.url }}">Home</a></li>
+          <li class="nav-element"><a href="{% link pages/resume.md %}">Resume</a></li>
+          <li class="nav-element"><a href="{% link pages/about.md %}">About Me</a></li>
+        </ul>
+        <ul>
+          <li class="nav-element"><a href="{{ site.external_links.linkedin }}"><i class="fab fa-linkedin"></i></a></li>
+          <li class="nav-element"><a href="{{ site.external_links.github }}"><i class="fab fa-github"></i></a></li>
+          <li class="nav-element"><a href="{{ site.external_links.mail }}"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+      </nav>
+    </div><!-- end header -->
+  
+    <main class="wrapper">
+  
+      {{ content }}
+  
+  
+  
+    </main>
+  </body>
+</html>
