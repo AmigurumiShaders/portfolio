@@ -10,6 +10,7 @@ collections:
   portfolio_pages:
     output: true
     order:
+    - channel-getaway.md
     - dx12-raymarcher.md
     - brave-magnet.md
     - raymarcher-ue4.md
@@ -17,7 +18,10 @@ collections:
     - kanji-helper.md
 
 external_links:
+  twitter: "REMOVE ME"
+  tumblr: "https://www.tumblr.com/miranda-tech-art"
   linkedin: "https://www.linkedin.com/in/miranda-auriemma"
   github: "https://github.com/tafellappen"
   mail: "mailto:msa4295@rit.edu"
   kanji_helper: "https://people.rit.edu/msa4295/kanji/dist/"
+  getaway: "https://milesmichell.itch.io/channel-getaway"
