@@ -5,13 +5,15 @@ title: "Project Channel TV Getaway"
 proj_type: "Academic Capstone"
 
 thumbnail_image: "./assets/images/getaway/spirit_crt.gif"
-description: "A highly stylized narrative game"
-tools: "Unreal Engine 5"
+description: "An experimentally stylized narrative game"
+tools: "Unreal Engine 5, Python"
 role: "Technical/VFX Artist"
 
 ---
 
 Channel Getaway is a first person narrative puzzle game. As the technical artist, I have been primarily focusing on VFX and asset implementation, in particular a shader simulating a black-and-white program being displayed on a color CRT. This is meant to represent the player character viewing and interacting with a virtual world within an 80's CRT display.
+
+I also used python to generate clean TV static textures, which are used in a scene transition effect. 
 
 You can check out the game on Itch.io <a href="{{ site.external_links.getaway }}"> here.</a>
 
