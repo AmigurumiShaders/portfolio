@@ -8,7 +8,6 @@ page_excerpts: true
 
 collections:
   portfolio_pages:
-    output: true
     order:
     - channel-getaway.md
     - dx12-raymarcher.md
@@ -16,6 +15,7 @@ collections:
     - raymarcher-ue4.md
     - particle-system.md
     - kanji-helper.md
+    output: true
 
 external_links:
   twitter: "REMOVE ME"
