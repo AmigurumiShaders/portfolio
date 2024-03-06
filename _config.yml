@@ -8,13 +8,13 @@ page_excerpts: true
 
 collections:
   portfolio_pages:
-    order:
-    - channel-getaway.md
-    - dx12-raymarcher.md
-    - brave-magnet.md
-    - raymarcher-ue4.md
-    - particle-system.md
-    - kanji-helper.md
+    # order: # (cant use this until i figure out how to get jekyll 4.0 to work with github pages. I want to keep this updated anyway as an ongoing record of intended order)
+    # - channel-getaway.md
+    # - dx12-raymarcher.md
+    # - brave-magnet.md
+    # - raymarcher-ue4.md
+    # - particle-system.md
+    # - kanji-helper.md
     output: true
 
 external_links:
