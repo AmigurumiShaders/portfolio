@@ -1,7 +1,7 @@
 ---
 layout: portfolio-item
 
-title: "Project Channel TV Getaway"
+title: "Channel Getaway"
 proj_type: "Academic Capstone"
 
 thumbnail_image: "./assets/images/getaway/spirit_crt.gif"
