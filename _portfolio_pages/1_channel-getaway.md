@@ -11,9 +11,9 @@ role: "Technical/VFX Artist"
 
 ---
 
-Channel Getaway is a first person narrative puzzle game. As the technical artist, I have been primarily focusing on VFX and asset implementation, in particular a shader simulating a black-and-white program being displayed on a color CRT. This is meant to represent the player character viewing and interacting with a virtual world within an 80's CRT display.
+Channel Getaway is a first person narrative puzzle game with experimental stylization. As the technical artist, I have been primarily focusing on VFX and asset implementation, in particular a shader simulating a black-and-white program being displayed on a color CRT. This is meant to represent the player character viewing and interacting with a virtual world within an 80's CRT display.
 
-I also used python to generate clean TV static textures, which are used in a scene transition effect. 
+Other highlights include experimental spirit NPC effects, and and a TV static transition effect where I used python to generate clean TV static textures.
 
 You can check out the game on Itch.io <a href="{{ site.external_links.getaway }}"> here.</a>
 
