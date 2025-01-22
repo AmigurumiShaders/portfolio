@@ -1,5 +1,5 @@
 ---
 layout: default
 ---
-
-<embed class="pdf" src="{% link assets/documents/Auriemma_Resume_2024.pdf %}" type="application/pdf">
+If resume PDF is not displayed, please <a href="{% link {{site.internal_links.resume}} %}">click here to download</a>.
+<embed class="pdf" src="{% link {{site.internal_links.resume}} %}" type="application/pdf">
